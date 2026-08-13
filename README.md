@@ -61,7 +61,7 @@ In a manufacturing floor, monitoring rotating machinery (CNC machines, robotic a
 
 ## Database Schema Design
 
-The relational database resides in MySQL and contains 4 tables:
+The relational database resides in mySQL and contains 4 tables:
 
 ```mermaid
 erDiagram
@@ -122,7 +122,7 @@ All requests except authentication require a valid JSON Web Token (JWT) sent in 
 
 ### Machines Registry (CRUD)
 * **`GET /api/machines`**
-  * *Description*: Retrieve list of all machines along with their latest metrics.
+  * *Description*: Retrieve list of all Machines along with their latest metrics.
 * **`GET /api/machines/:id`**
   * *Description*: Fetch a single machine's metadata and its last 20 telemetry entries.
 * **`POST /api/machines`** (*Admin Only*)
