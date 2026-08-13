@@ -1,6 +1,6 @@
 # MachineLink – Industrial IoT Cloud Platform
 
-MachineLink is a complete, production-grade cloud-based Industrial IoT (IIoT) Monitoring Platform built to centralize and visualize real-time health data from factory machinery. 
+MachineLink is a complete, production-grade cloud-based Industrial IoT (IoT) monitoring Platform built to centralize and visualize real-time health data from factory machinery. 
 
 Designed for scalability, ease of operations, and ease of deployment, this system utilizes a React SPA frontend styled as a premium SaaS dashboard, an MVC Express.js REST API backend, and a MySQL database orchestrating live telemetry updates. 
 
